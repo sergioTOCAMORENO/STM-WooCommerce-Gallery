@@ -154,31 +154,31 @@ function stmpili_funcion_vinculo_compra() {
 		<tr class="form-field">
 			<th scope="row" valign="top">
 				<label for="update"><h2>
-					<?php echo __( 'Características mejoradas en STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?>
+					<?php echo esc_html__( 'Características mejoradas en STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?>
 				</h2></label>
 			</th>
 			<td>
 				<ul>
-					<li><?php echo __( 'Opciones de fondo de la composicion ( color, transparencia, imagen)', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Inserción logo personal en huecos entre imágenes', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Campo personalización CSS', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Campo ajuste final imagen', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Diseño adaptativo "responsive"', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Desplazamiento ( fade ) entre imágenes en el lightbox', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Ajuste de la altura de la última matriz', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Slider para el cambio de matrices', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Matrización de la composición', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Filtro por categorías', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Gestión de las imágenes en la página de edición de la taxonomía', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Definir qué imágenes estarán destacadas', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Atributos específicos para las imágenes destacadas', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Inclusión información adicional de producto en lightbox', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Opciones de fondo de la composicion ( color, transparencia, imagen)', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Inserción logo personal en huecos entre imágenes', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Campo personalización CSS', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Campo ajuste final imagen', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Diseño adaptativo "responsive"', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Desplazamiento ( fade ) entre imágenes en el lightbox', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Ajuste de la altura de la última matriz', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Slider para el cambio de matrices', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Matrización de la composición', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Filtro por categorías', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Gestión de las imágenes en la página de edición de la taxonomía', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Definir qué imágenes estarán destacadas', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Atributos específicos para las imágenes destacadas', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Inclusión información adicional de producto en lightbox', 'stmpili' ); ?></li>
 				</ul>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-				<a href="http://sergiotoca.com/producto/stm-woocommerce-gallery-v-2-1/" class="button"><?php echo __( 'Actualiza ya a STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?></a><br>
+				<a href="http://sergiotoca.com/producto/stm-woocommerce-gallery-v-2-1/" class="button"><?php echo esc_html__( 'Actualiza ya a STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?></a><br>
 			</td>
 		</tr>
 	</table>
@@ -216,116 +216,116 @@ function stmpili_funcion_campos_personales( $tag ) {
 	<tr class="form-field">
 		<th scope="row" valign="top" colspan="2">
 			<label for="update">
-				<?php echo __( 'Características mejoradas en STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Características mejoradas en STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td colspan="2">
 			<ul>
-					<li><?php echo __( 'Opciones de fondo de la composicion ( color, transparencia, imagen)', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Inserción logo personal en huecos entre imágenes', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Campo personalización CSS', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Campo ajuste final imagen', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Diseño adaptativo "responsive"', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Desplazamiento ( fade ) entre imágenes en el lightbox', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Ajuste de la altura de la última matriz', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Slider para el cambio de matrices', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Matrización de la composición', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Filtro por categorías', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Gestión de las imágenes en la página de edición de la taxonomía', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Definir qué imágenes estarán destacadas', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Atributos específicos para las imágenes destacadas', 'stmpili' ); ?></li>
-					<li><?php echo __( 'Inclusión información adicional de producto en lightbox', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Opciones de fondo de la composicion ( color, transparencia, imagen)', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Inserción logo personal en huecos entre imágenes', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Campo personalización CSS', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Campo ajuste final imagen', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Diseño adaptativo "responsive"', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Desplazamiento ( fade ) entre imágenes en el lightbox', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Ajuste de la altura de la última matriz', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Slider para el cambio de matrices', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Matrización de la composición', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Filtro por categorías', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Gestión de las imágenes en la página de edición de la taxonomía', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Definir qué imágenes estarán destacadas', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Atributos específicos para las imágenes destacadas', 'stmpili' ); ?></li>
+					<li><?php echo esc_html__( 'Inclusión información adicional de producto en lightbox', 'stmpili' ); ?></li>
 			</ul>
 		</td>
 		<td colspan="2">
-			<a href="http://sergiotoca.com/producto/stm-woocommerce-gallery-v-2-1/" class="button"><?php echo __( 'Actualiza ya a STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?></a>
+			<a href="http://sergiotoca.com/producto/stm-woocommerce-gallery-v-2-1/" class="button"><?php echo esc_html__( 'Actualiza ya a STM WooCommerce Gallery v.2.1.', 'stmpili' ); ?></a>
 		</td>
 	</tr>
 	<tr class="form-field">
 		<th scope="row" valign="top">
 			<label for="tax_img_margen_color">
-				<?php echo __( 'Color margen imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Color margen imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_margen_color]" class="my-color-field" value="<?php echo $tax_meta['img_margen_color']; ?>">
+			<input type="text" name="tax_meta[img_margen_color]" class="my-color-field" value="<?php echo esc_html( $tax_meta['img_margen_color'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_margen_grosor">
-				<?php echo __( 'Grosor margen imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Grosor margen imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_margen_grosor]" value="<?php echo $tax_meta['img_margen_grosor']; ?>">
+			<input type="text" name="tax_meta[img_margen_grosor]" value="<?php echo esc_html( $tax_meta['img_margen_grosor'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_margen_redondeo">
-				<?php echo __( 'Redondeo margen imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Redondeo margen imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_margen_redondeo]" value="<?php echo $tax_meta['img_margen_redondeo']; ?>">
+			<input type="text" name="tax_meta[img_margen_redondeo]" value="<?php echo esc_html( $tax_meta['img_margen_redondeo'] ); ?>">
 		</td>
 	</tr>
 	
 	<tr class="form-field">
 		<th scope="row" valign="top">
 			<label for="tax_img_borde_color">
-				<?php echo __( 'Color borde imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Color borde imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" class="my-color-field" name="tax_meta[img_borde_color]" value="<?php echo $tax_meta['img_borde_color']; ?>">
+			<input type="text" class="my-color-field" name="tax_meta[img_borde_color]" value="<?php echo esc_html( $tax_meta['img_borde_color'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_borde_grosor">
-				<?php echo __( 'Grosor borde imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Grosor borde imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_borde_grosor]" value="<?php echo $tax_meta['img_borde_grosor']; ?>">
+			<input type="text" name="tax_meta[img_borde_grosor]" value="<?php echo esc_html( $tax_meta['img_borde_grosor'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_borde_redondeo">
-				<?php echo __( 'Redondeo borde imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Redondeo borde imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_borde_redondeo]" value="<?php echo $tax_meta['img_borde_redondeo']; ?>">
+			<input type="text" name="tax_meta[img_borde_redondeo]" value="<?php echo esc_html( $tax_meta['img_borde_redondeo'] ); ?>">
 		</td>
 	</tr>
 	
 	<tr class="form-field">
 		<th scope="row" valign="top">
 			<label for="tax_img_sombra_color">
-				<?php echo __( 'Color sombra imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Color sombra imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" class="my-color-field" name="tax_meta[img_sombra_color]" value="<?php echo $tax_meta['img_sombra_color']; ?>">
+			<input type="text" class="my-color-field" name="tax_meta[img_sombra_color]" value="<?php echo esc_html( $tax_meta['img_sombra_color'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_sombra_grosor">
-				<?php echo __( 'Grosor sombra imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Grosor sombra imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_sombra_grosor]" value="<?php echo $tax_meta['img_sombra_grosor']; ?>">
+			<input type="text" name="tax_meta[img_sombra_grosor]" value="<?php echo esc_html( $tax_meta['img_sombra_grosor'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_separacion">
-				<?php echo __( 'Separación entre imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Separación entre imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_separacion]" value="<?php echo $tax_meta['img_separacion']; ?>">
+			<input type="text" name="tax_meta[img_separacion]" value="<?php echo esc_html( $tax_meta['img_separacion'] ); ?>">
 		</td>
 	</tr>
 	
 	<tr class="form-field">
 		<th scope="row" valign="top">
 			<label for="tax_img_aumento">
-				<?php echo __( 'Aumento imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Aumento imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
@@ -343,15 +343,15 @@ function stmpili_funcion_campos_personales( $tag ) {
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_cantidad_aumento">
-				<?php echo __( 'Porcentaje de aumento', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Porcentaje de aumento', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
-			<input type="text" name="tax_meta[img_cantidad_aumento]" value="<?php echo $tax_meta['img_cantidad_aumento']; ?>">
+			<input type="text" name="tax_meta[img_cantidad_aumento]" value="<?php echo esc_html( $tax_meta['img_cantidad_aumento'] ); ?>">
 		</td>
 		<th scope="row" valign="top">
 			<label for="tax_img_girado">
-				<?php echo __( 'Girado imágenes', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Girado imágenes', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
@@ -374,7 +374,7 @@ function stmpili_funcion_campos_personales( $tag ) {
 	<tr class="form-field">
 		<th scope="row" valign="top">
 			<label for="tax_composicion_tipo_cambio">
-				<?php echo __( 'Tipo cambio composición', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Tipo cambio composición', 'stmpili' ); ?>
 			</label>
 		</th>
 		<td>
@@ -382,16 +382,16 @@ function stmpili_funcion_campos_personales( $tag ) {
 			if ( $tax_meta['composicion_tipo_cambio'] == 0 ) {
 				?>
 			<input type="radio" name="tax_meta[composicion_tipo_cambio]" value="0" checked>
-				<?php echo __( 'Cambio', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Cambio', 'stmpili' ); ?>
 			<input type="radio" name="tax_meta[composicion_tipo_cambio]" value="1">
-				<?php echo __( 'Transición', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Transición', 'stmpili' ); ?>
 				<?php
 			} else {
 				?>
 			<input type="radio" name="tax_meta[composicion_tipo_cambio]" value="0">
-				<?php echo __( 'Cambio', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Cambio', 'stmpili' ); ?>
 			<input type="radio" name="tax_meta[composicion_tipo_cambio]" value="1" checked>
-				<?php echo __( 'Transición', 'stmpili' ); ?>
+				<?php echo esc_html__( 'Transición', 'stmpili' ); ?>
 				<?php
 			}
 			?>
@@ -426,7 +426,7 @@ function stmpili_funcion_guardar_datos( $term_id ) {
 			$tax_meta['img_girado'] = ( !empty( $_POST['tax_meta']['img_girado'] ) ) ? 'si' : 'no';
 			
 			if ( isset( $_POST['tax_meta'][$key] ) ) {
-				$tax_meta[$key] = $_POST['tax_meta'][$key];
+				$tax_meta[$key] = stmpili_sanitize_validate_input( $key, $_POST['tax_meta'][$key] );
 			}
 			
 		}
@@ -533,9 +533,9 @@ function stmpili_funcion_devolver_matriz() {
 	
 	check_ajax_referer( 'devolucion_matriz' );
 	
-	$ancho_div = $_POST['ancho'];
-	$alto_ventana = $_POST['alto'];
-	$termino = $_POST['termino'];
+	$ancho_div = stmpili_sanitize_validate_input( 'ancho', $_POST['ancho'] );
+	$alto_ventana = stmpili_sanitize_validate_input( 'alto', $_POST['alto'] );
+	$termino = stmpili_sanitize_validate_input( 'termino', $_POST['termino'] );
 	
 	$stmpili_pila = array();
 	$stmpili_matriz = array();
@@ -707,7 +707,6 @@ function stmpili_funcion_medidas_matriz( $anchura_pantalla, $altura_ventana, $te
 	if ( $tax_meta['composicion_tipo_cambio'] == 0 ) {
 	}
 	$stmpili_filas = ( ( $altura_ventana - $altura_ventana % $modulo ) / $modulo ) - 3;
-	?><script>console.log('Ancho div: <?php echo $anchura_pantalla; ?>. Altura ventana: <?php echo $altura_ventana; ?>. Matriz: <?php echo $stmpili_columnas . ' x ' . $stmpili_filas; ?>.');</script><?php
 	
 }
 
@@ -1436,12 +1435,12 @@ function stmpili_funcion_generacion_resultado( $matrices_rellenas, $matrices_aju
 			$alto_acumulado = ( $ancho_columna * $stmpili_filas +20) * ( $matriz + 1 ) + $ancho_columna;
 		}
 
-		$tabla_visual .= '<div class="matriz visual" style="width: ' . $ancho_tabla . 'px; height: '. $alto_tabla . 'px; position: relative;" id="tabla-' . $matriz . '">';
+		$tabla_visual .= '<div class="matriz visual" style="width: ' . esc_attr( $ancho_tabla ) . 'px; height: ' . esc_attr( $alto_tabla ) . 'px; position: relative;" id="tabla-' . esc_attr( $matriz ) . '">';
 		for ( $y=1; $y < $stmpili_filas + 1; $y++ ) {
 			for ( $x = 1; $x < $stmpili_columnas + 1; $x++ ) {
 				if ( $y == 1 && $x == 1 && $tax_meta['composicion_tipo_cambio'] == 0 && $matriz != 1 ) {
 					$anterior = $matriz - 1;
-					$tabla_visual .= '<div style="width: '.$ancho_columna . 'px; height: '.$stmpili_filas * $ancho_columna.'px; position: absolute; top: 0; left: 0;" class="cambio" onclick="document.getElementById(\'tabla-'. $anterior .'\').style.display=\'block\';document.getElementById(\'tabla-'. $matriz .'\').style.display=\'none\';"><span class="icono icon-left-open" style="font-size: '.$ancho_columna.'px;position:relative;left:-'.($ancho_columna/2).'px;top:'.($stmpili_filas * $ancho_columna / 2).'px;"></span></div>';
+					$tabla_visual .= '<div style="width: ' . esc_attr( $ancho_columna ) . 'px; height: ' . esc_attr( $stmpili_filas * $ancho_columna ) . 'px; position: absolute; top: 0; left: 0;" class="cambio" onclick="document.getElementById(\'tabla-'. $anterior .'\').style.display=\'block\';document.getElementById(\'tabla-' . $matriz . '\').style.display=\'none\';"><span class="icono icon-left-open" style="font-size: ' . $ancho_columna . 'px;position:relative;left:-' . ( $ancho_columna / 2 ) . 'px;top:' . ( $stmpili_filas * $ancho_columna / 2 ) . 'px;"></span></div>';
 				}
 				$pieza = $matrices_ajustadas[$matriz][$x][$y];
 				if ($pieza == 0 ) {
@@ -1449,14 +1448,14 @@ function stmpili_funcion_generacion_resultado( $matrices_rellenas, $matrices_aju
 					$posicion_y = ($y - 1) * $ancho_columna;
 					$ancho_pieza = $ancho_columna;
 					$alto_pieza = $ancho_columna;
-					$tabla_visual .='<div style="width: '. $ancho_pieza .'px; height: '.$alto_pieza.'px; position: absolute; left: '. $posicion_x .'px; top: '.$posicion_y . 'px;"></div>';
+					$tabla_visual .='<div style="width: ' . esc_attr( $ancho_pieza ) . 'px; height: ' . esc_attr( $alto_pieza ) . 'px; position: absolute; left: ' . esc_attr( $posicion_x ) . 'px; top: ' . esc_attr( $posicion_y ) . 'px;"></div>';
 				} else {
 					if ( $pieza == -1 ) {
 						$posicion_x = ( $tax_meta['composicion_tipo_cambio'] == 0 && $matriz != 1 ) ? $x * $ancho_columna : ($x - 1) * $ancho_columna;
 						$posicion_y = ($y - 1) * $ancho_columna;
 						$ancho_pieza = $ancho_columna;
 						$alto_pieza = $ancho_columna;
-						$tabla_visual .='<div style="width: '. $ancho_pieza .'px; height: '. $alto_pieza. 'px; position: absolute; left: '.$posicion_x . 'px; top: '.$posicion_y. 'px;"></div>';
+						$tabla_visual .='<div style="width: ' . esc_attr( $ancho_pieza ) . 'px; height: ' . esc_attr( $alto_pieza ) . 'px; position: absolute; left: ' . esc_attr( $posicion_x ) . 'px; top: ' . esc_attr( $posicion_y ) . 'px;"></div>';
 					} else {
 						if ( $stmpili_pila[$pieza]['visualizada'] != true ) {
 							$tecnicos = getimagesize( str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['URL'] ) ) );
@@ -1513,8 +1512,8 @@ function stmpili_funcion_generacion_resultado( $matrices_rellenas, $matrices_aju
 							$ancho_interior = $ancho_total / $stmpili_columnas * $stmpili_pila[$pieza]['ancho'] - 10;
 							$final_x = $posicion_x + $desplazamiento_horizontal;
 							$final_y = $posicion_y + $desplazamiento_vertical;
-							$tabla_visual .='<div class="imagen pieza-' . $pieza . '" style="width: ' . $ancho_marco . 'px; height: ' . $alto_marco . 'px; position: absolute; left: ' . $final_x . 'px; top: ' . $final_y . 'px;" onclick="stmpili_funcion_crear_lightbox(\''. str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['URL'] ) ) . '\',' . $ancho . ', ' . $alto . ', \'' . str_replace( "'", "\'", $stmpili_pila[$pieza]['Title'] ) . '\', \'' .  str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['Link'] ) ) . '\', \'' . plugin_dir_url( __FILE__ ) . 'cierre.gif\', \'' . $tax_meta['img_margen_color'] . '\', ' . $tax_meta['img_margen_grosor'] . ', ' . $tax_meta['img_margen_redondeo'] . ', \'' . $tax_meta['img_borde_color'] . '\', ' . $tax_meta['img_borde_grosor'] . ', ' . $tax_meta['img_borde_redondeo'] . ');">';
-							$tabla_visual .='<img style="width: ' . $ancho_imagen . 'px; height: ' . $alto_imagen . 'px; position: relative; left: ' . $left_imagen . 'px; top: ' . $top_imagen . 'px;" src="' . str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['URL'] ) ) . '">';
+							$tabla_visual .='<div class="imagen pieza-' . esc_attr( $pieza ) . '" style="width: ' . esc_attr( $ancho_marco ) . 'px; height: ' . esc_attr( $alto_marco ) . 'px; position: absolute; left: ' . esc_attr( $final_x ) . 'px; top: ' . esc_attr( $final_y ) . 'px;" onclick="stmpili_funcion_crear_lightbox(\''. esc_url( str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['URL'] ) ) ) . '\',' . $ancho . ', ' . $alto . ', \'' . esc_html( str_replace( "'", "\'", $stmpili_pila[$pieza]['Title'] ) ) . '\', \'' .  esc_url( str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['Link'] ) ) ) . '\', \'' . esc_url( plugin_dir_url( __FILE__ ) ) . 'cierre.gif\', \'' . $tax_meta['img_margen_color'] . '\', ' . $tax_meta['img_margen_grosor'] . ', ' . $tax_meta['img_margen_redondeo'] . ', \'' . $tax_meta['img_borde_color'] . '\', ' . $tax_meta['img_borde_grosor'] . ', ' . $tax_meta['img_borde_redondeo'] . ');">';
+							$tabla_visual .='<img style="width: ' . esc_attr( $ancho_imagen ) . 'px; height: ' . esc_attr( $alto_imagen ) . 'px; position: relative; left: ' . esc_attr( $left_imagen ) . 'px; top: ' . esc_attr( $top_imagen ) . 'px;" src="' . esc_url( str_replace( ' ', '\/', urldecode( $stmpili_pila[$pieza]['URL'] ) ) ) . '">';
 							$tabla_visual .='</div>';
 							$stmpili_pila[$pieza]['visualizada'] = true;
 						}
@@ -1523,13 +1522,13 @@ function stmpili_funcion_generacion_resultado( $matrices_rellenas, $matrices_aju
 				if ( $y == 1 && $x == $stmpili_columnas && $tax_meta['composicion_tipo_cambio'] == 0 && $matriz != $stmpili_matriz_actual ) {
 					$siguiente = $matriz + 1;
 					$posicion_x = ( $matriz == 1 ) ? $stmpili_columnas * $ancho_columna : ($stmpili_columnas +1) * $ancho_columna;
-					$tabla_visual .= '<div style="width: '.$ancho_columna . 'px; height: '.$stmpili_filas * $ancho_columna.'px; position: absolute; top: 0; left: '. $posicion_x .'px;" class="cambio" onclick="document.getElementById(\'tabla-'. $siguiente .'\').style.display=\'block\';document.getElementById(\'tabla-'. $matriz .'\').style.display=\'none\';"><span class="icono icon-right-open" style="font-size: '.$ancho_columna.'px;position:relative;top:'.($stmpili_filas * $ancho_columna / 2).'px;"></span></div>';
+					$tabla_visual .= '<div style="width: '. esc_attr( $ancho_columna ) . 'px; height: ' . esc_attr( $stmpili_filas * $ancho_columna ) . 'px; position: absolute; top: 0; left: ' . esc_attr( $posicion_x ) . 'px;" class="cambio" onclick="document.getElementById(\'tabla-'. $siguiente .'\').style.display=\'block\';document.getElementById(\'tabla-'. $matriz .'\').style.display=\'none\';"><span class="icono icon-right-open" style="font-size: ' . esc_attr( $ancho_columna ) . 'px;position:relative;top:' . esc_attr( $stmpili_filas * $ancho_columna / 2) . 'px;"></span></div>';
 				}
 			}
 		}
 		if ( $tax_meta['composicion_tipo_cambio'] == 1 && $matriz < $stmpili_matriz_actual ) {
 			$proxima = $matriz + 1;
-			$tabla_visual .='<div id="transicion-'.$matriz.'" class="continuacion" style="width: '. $stmpili_columnas * $ancho_columna . 'px; height: ' . $ancho_columna . 'px; position: absolute; left: 0; top: '. $stmpili_filas * $ancho_columna.'px;" colspan="24" onclick="document.getElementById(\'tabla-'. $proxima .'\').style.display=\'inline-table\'; elemento = document.getElementById(\'transicion-'.$matriz.'\');document.getElementById(\'fondo\').style.height=\''.$alto_acumulado.'px\';elemento.parentNode.removeChild(elemento);"><span class="icono icon-down-open" style="font-size: '.$ancho_columna.'px;"></span></div>';
+			$tabla_visual .='<div id="transicion-' . esc_attr( $matriz ) . '" class="continuacion" style="width: ' . esc_attr( $stmpili_columnas * $ancho_columna ) . 'px; height: ' . esc_attr( $ancho_columna ) . 'px; position: absolute; left: 0; top: ' . esc_attr( $stmpili_filas * $ancho_columna ) . 'px;" colspan="24" onclick="document.getElementById(\'tabla-'. $proxima .'\').style.display=\'inline-table\'; elemento = document.getElementById(\'transicion-'.$matriz.'\');document.getElementById(\'fondo\').style.height=\''.$alto_acumulado.'px\';elemento.parentNode.removeChild(elemento);"><span class="icono icon-down-open" style="font-size: '.$ancho_columna.'px;"></span></div>';
 		}
 		$tabla_visual .= '</div>';
 	}
@@ -1568,13 +1567,13 @@ function stmpili_funcion_estilos_css( $composicion, $ancho ) {
 
 	$estilo = '<style>';
 	
-	$estilo .='.matriz {border: none; width: ' . $ancho . 'px; height: ' . $ancho * $stmpili_filas . 'px; margin: 0px}';
+	$estilo .='.matriz {border: none; width: ' . esc_html( $ancho ) . 'px; height: ' . esc_html( $ancho * $stmpili_filas ) . 'px; margin: 0px}';
 	$celda = ( $tax_meta['composicion_tipo_cambio'] == 0 ) ? $ancho / ( $stmpili_columnas + 2 ) : $ancho / $stmpili_columnas;
-	$estilo .='.matriz tr{ height:' . $celda . 'px; vertical-align: middle;}';
+	$estilo .='.matriz tr{ height:' . esc_html( $celda ) . 'px; vertical-align: middle;}';
 	$estilo .='.matriz th, .matriz td{border: none; padding: 5px; vertical-align: inherit;}';
 	
 	for ( $matriz=2; $matriz < $stmpili_matriz_actual + 1; $matriz++ ) {
-		$estilo .='#tabla-' . $matriz . ' { display: none;';
+		$estilo .='#tabla-' . esc_html( $matriz ) . ' { display: none;';
 		if ( $tax_meta['composicion_tipo_cambio'] == 1 ) {
 			$subir = $celda * ( $matriz - 1 );
 			$estilo .='top: -'. $subir . 'px;';
@@ -1583,13 +1582,13 @@ function stmpili_funcion_estilos_css( $composicion, $ancho ) {
 	}
 	
 	$estilo .='.imagen {
-		background: ' . $tax_meta['img_margen_color'] . '; 
-		border: ' . $tax_meta['img_borde_color'] . ' solid ' . $tax_meta['img_borde_grosor'] * $proporcion . 'px;
-		border-radius: ' . $tax_meta['img_borde_redondeo'] * $proporcion . 'px;';
+		background: ' . esc_html( $tax_meta['img_margen_color'] ) . '; 
+		border: ' . esc_html( $tax_meta['img_borde_color'] ) . ' solid ' . esc_html( $tax_meta['img_borde_grosor'] * $proporcion ) . 'px;
+		border-radius: ' . esc_html( $tax_meta['img_borde_redondeo'] * $proporcion ) . 'px;';
 		if ( $tax_meta['img_sombra_grosor'] != 0 ) {
-		$estilo .='-webkit-box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';
-		-moz-box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';
-		box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';';
+		$estilo .='-webkit-box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px '. esc_html( $tax_meta['img_sombra_color'] ) . ';
+		-moz-box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px ' . esc_html( $tax_meta['img_sombra_color'] ) . ';
+		box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px ' . esc_html( $tax_meta['img_sombra_color'] ) . ';';
 		}
 		if ( $tax_meta['img_aumento'] == 'si' ) {
 			$total = 100 + $tax_meta['img_cantidad_aumento'];
@@ -1599,35 +1598,35 @@ function stmpili_funcion_estilos_css( $composicion, $ancho ) {
 	$estilo .= '}';
 		
 	$estilo .='.imagen img {';
-		$estilo .='border-radius: ' . $tax_meta['img_margen_redondeo'] . 'px;';
+		$estilo .='border-radius: ' . esc_html( $tax_meta['img_margen_redondeo'] ) . 'px;';
 	$estilo .='}';
 	
 	if ( $tax_meta['img_girado'] == 'si' ) {
 		for ( $contador = 1; $contador <= count( $stmpili_pila ); $contador++ ) {
 			$giro = mt_rand( -5, 5 );
-			$estilo .= '.pieza-' . $contador . ' {-webkit-transform: rotate(' . $giro . 'deg); -moz-transform: rotate(' . $giro . 'deg);}';
+			$estilo .= '.pieza-' . esc_html( $contador ) . ' {-webkit-transform: rotate(' . esc_html( $giro ) . 'deg); -moz-transform: rotate(' . esc_html( $giro ) . 'deg);}';
 		}
 	}
 
 	$estilo .='.cambio, .continuacion {
-		background: ' . $tax_meta['img_margen_color'] . '; 
-		border: ' . $tax_meta['img_borde_color'] . ' solid ' . $tax_meta['img_borde_grosor'] . 'px;
-		border-radius: ' . $tax_meta['img_borde_redondeo'] . 'px;';
+		background: ' . esc_html( $tax_meta['img_margen_color'] ) . '; 
+		border: ' . esc_html( $tax_meta['img_borde_color'] ) . ' solid ' . esc_html( $tax_meta['img_borde_grosor'] ) . 'px;
+		border-radius: ' . esc_html( $tax_meta['img_borde_redondeo'] ) . 'px;';
 		if ( $tax_meta['img_sombra_grosor'] != 0 ) {
-		$estilo .='-webkit-box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';
-		-moz-box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';
-		box-shadow: ' . $tax_meta['img_sombra_grosor'] . 'px ' . $tax_meta['img_sombra_grosor'] . 'px 20px 0px '. $tax_meta['img_sombra_color'] . ';';
+		$estilo .='-webkit-box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px '. esc_html( $tax_meta['img_sombra_color'] ) . ';
+		-moz-box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px ' . esc_html( $tax_meta['img_sombra_color'] ) . ';
+		box-shadow: ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px ' . esc_html( $tax_meta['img_sombra_grosor'] ) . 'px 20px 0px '. esc_html( $tax_meta['img_sombra_color'] ) . ';';
 		}
 	$estilo .='}';
 	
 	$estilo .='.cambio {
-		width: ' . $celda . 'px;		
+		width: ' . esc_html( $celda ) . 'px;		
 		cursor: pointer;}';
 		
 	$estilo .='.continuacion {text-align: center; cursor: pointer;}';
 	
 	$tamanyo = $proporcion * $celda;
-	$estilo .='.icon-cancel-circled { font-size: '.$tamanyo.'px; }';
+	$estilo .='.icon-cancel-circled { font-size: ' . esc_html( $tamanyo ) . 'px; }';
 	switch ( $proporcion ) {
 		case 0.8:
 			$estilo .= '.titulo-enlace, .icon-cancel-circled { font-size: normal; }';
@@ -1664,8 +1663,7 @@ function stmpili_funcion_enqueue2_scripts () {
 }
 	
 add_action( 'wp_enqueue_scripts', 'stmpili_funcion_enqueue2_scripts' );
-
-  
+ 
   
 function stmpili_funcion_pieza_libre_ancho_mayor( ) {
 	
@@ -1691,3 +1689,44 @@ function stmpili_funcion_pieza_libre_ancho_mayor( ) {
 	}
 	
 }
+
+function stmpili_sanitize_validate_input ( $key, $value ) {
+	
+	// Sanitize
+	$correcto = sanitize_text_field( $value );
+	
+	// Validate
+	switch ( $key ) {
+		case 'img_margen_grosor':
+		case 'img_margen_redondeo':
+		case 'img_borde_grosor':
+		case 'img_borde_redondeo':
+		case 'img_sombra_grosor':
+		case 'img_cantidad_aumento':
+		case 'composicion_tipo_cambio':
+		case 'img_separacion':
+			$correcto = intval ( $correcto );
+			break;
+		case 'img_margen_color':
+		case 'img_borde_color':
+		case 'img_sombra_color':
+			$is_hexa_color = strpos ( $correcto, '#' );
+			if ( $is_hexa_color === false ) {
+				if ( $key == 'img_margen_color' ) {
+					$correcto = '#fff';
+				} else {
+					$correcto = '#000';
+				}
+			}
+			break;
+		case 'ancho':
+		case 'alto':
+			$correcto = intval ( $correcto );
+			break;
+	}
+	
+	// Return the correct value
+	return $correcto;
+	
+}
+	
